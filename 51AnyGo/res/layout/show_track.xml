@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<com.google.android.maps.MapView 
+	android:id="@+id/mv"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:apiKey="0M7nm_3ZwXw_KV_Fqu2Q_jn6jpeNyT0b1dd3UTA"/>
+     <!--     android:apiKey="0TV51W-7P7scUQcmfO6mgOVAv3BhpP19gFDYMTg"--> 
+	
+	
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#550000ff"
+    >
+<Button android:id="@+id/sat"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="50px"
+	android:text="@string/satellite"
+	/>    
+	<Button android:id="@+id/traffic"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/traffic"
+	/>  
+	<Button android:id="@+id/streetview"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/street"
+	/>  
+	<Button android:id="@+id/gps"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="GPS"
+	/>  
+</LinearLayout>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="1px"
+    android:background="#550000ff">
+<Button android:id="@+id/zin"
+	android:layout_width="50px"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="50px"
+	android:text="+"
+	/>    
+	<Button android:id="@+id/zout"
+	android:layout_width="50px"
+	android:layout_height="wrap_content"
+	android:text="-"
+	/>  
+	<Button android:id="@+id/pann"
+	android:layout_width="50px"
+	android:layout_height="wrap_content"
+	android:text="N"
+	/>  
+	<Button android:id="@+id/pane"
+	android:layout_width="50px"
+	android:layout_height="wrap_content"
+	android:text="E"
+	/>  
+	<Button android:id="@+id/panw"
+	android:layout_width="50px"
+	android:layout_height="wrap_content"
+	android:text="W"
+	/>  
+	<Button android:id="@+id/pans"
+	android:layout_width="50px"
+	android:layout_height="wrap_content"
+	android:text="S"
+	/>  
+</LinearLayout>
+</FrameLayout>

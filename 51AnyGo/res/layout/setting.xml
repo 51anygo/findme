@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+android:id="@+id/widget28"
+android:layout_width="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_height="fill_parent" android:scrollbarStyle="insideOverlay" android:alwaysDrawnWithCache="false"><TextView
+android:id="@+id/widget27"
+android:layout_width="wrap_content"
+android:layout_height="-9px" android:text="@string/setting_usrnametip" android:layout_marginLeft="10px" android:shadowColor="#FF000000">
+</TextView><EditText android:id="@+id/EditTextUsrName" android:singleLine="true" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_marginLeft="10px" android:phoneNumber="false"></EditText>10<TextView
+android:id="@+id/widget27"
+android:layout_width="wrap_content"
+android:layout_height="-9px" android:text="@string/setting_passwordtip" android:layout_marginLeft="10px">
+</TextView><EditText android:layout_height="wrap_content" android:id="@+id/EditTextPassWord" android:password="true" android:singleLine="true" android:layout_width="fill_parent" android:layout_marginLeft="10px"></EditText><TextView
+android:id="@+id/widget27"
+android:layout_width="wrap_content"
+android:layout_height="-9px" android:layout_marginLeft="10px" android:text="@string/setting_phonenumtip">
+</TextView><EditText android:layout_height="wrap_content" android:id="@+id/EditTextPhoneNum" android:singleLine="true" android:layout_width="fill_parent" android:layout_marginLeft="10px" android:password="false" android:phoneNumber="true"></EditText>
+<Button android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:text="@string/setting_logintesttip" 
+android:id="@+id/ButtonUsrReg" android:layout_marginLeft="10px"></Button>
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" android:id="@+id/widget29" android:text="@string/setting_smstagtip" android:layout_marginLeft="10px">
+</TextView><EditText android:layout_height="wrap_content" android:singleLine="true" android:layout_width="fill_parent" android:id="@+id/EditTextSmsTag" android:password="false" android:layout_marginLeft="10px" android:hint="@string/helps_smstag_hint"></EditText><TextView
+android:id="@+id/widget27"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" android:text="@string/spinner_gps_prompt" android:layout_marginLeft="10px">
+</TextView><Spinner
+android:id="@+id/setting_gps"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content" android:layout_marginLeft="10px">
+</Spinner>
+
+<TextView
+    android:id="@+id/widget33"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/setting_map_level"
+    android:visibility="invisible" >
+
+</TextView>
+
+<Spinner
+    android:id="@+id/setting_map"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:visibility="invisible" >
+
+</Spinner>
+
+<CheckBox
+    android:id="@+id/setting_nosleep"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/setting_nosleepstring"
+    android:visibility="invisible" >
+
+</CheckBox><Button
+        android:id="@+id/setting_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setting_submit"
+        android:visibility="invisible" >
+
+</Button>
+
+
+
+
+
+
+
+
+</LinearLayout>
